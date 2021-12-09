@@ -91,7 +91,7 @@ These networks have been trained to detect 80 objects classes from the COCO data
 
 **Tips for selecting a model**
 
-Pretrained object detectors have different characteristics that matter when choosing a network to apply to your problem. The most important characteristics are mean average precisiion (mAP), speed, and size. Choosing a network is generally a tradeoff between these characteristics.
+Pretrained object detectors have different characteristics that matter when choosing a network to apply to your problem. The most important characteristics are mean average precision (mAP), speed, and size. Choosing a network is generally a tradeoff between these characteristics.
 
 **Application Specific Object Detectors**
 
