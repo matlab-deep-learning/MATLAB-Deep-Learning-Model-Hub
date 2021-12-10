@@ -32,7 +32,7 @@ Discover pretrained models for deep learning in MATLAB.
 
 Pretrained image classification networks have already learned to extract powerful and informative features from natural images. Use them as a starting point to learn a new task using transfer learning. 
 
-The inputs to all networks are RGB images, the output is the predicted label and score:
+Inputs are RGB images, the output is the predicted label and score:
 
 ![](Images/classification_workflow.png)
 
@@ -76,7 +76,7 @@ Figure. Comparing image classification model accuracy, speed and size.
 
 Object detection is a computer vision technique used for locating instances of objects in images or videos. When humans look at images or video, we can recognize and locate objects of interest within a matter of moments. The goal of object detection is to replicate this intelligence using a computer.
 
-The inputs to all networks are RGB images, the output is the predicted label, bounding box and score:
+Inputs are RGB images, the output is the predicted label, bounding box and score:
 
 ![](Images/objectdetection_workflow.png)
 
@@ -108,7 +108,7 @@ These networks have been trained to detect specific objects for a given applicat
 
 Segmentation is essential for image analysis tasks. Semantic segmentation describes the process of associating each pixel of an image with a class label, (such as flower, person, road, sky, ocean, or car). 
 
-All inputs are RGB images, outputs are pixel classifications (semantic maps).
+Inputs are RGB images, outputs are pixel classifications (semantic maps).
 <img src="Images/semanticseg.png" class="center"> 
 
 This network has been trained to detect 20 objects classes from the PASCAL VOC dataset:
@@ -131,7 +131,7 @@ This network has been trained to detect 20 objects classes from the PASCAL VOC d
 
 Instance segmentation is an enhanced type of object detection that generates a segmentation map for each detected instance of an object. Instance segmentation treats individual objects as distinct entities, regardless of the class of the objects. In contrast, semantic segmentation considers all objects of the same class as belonging to a single entity.
 
-All inputs are RGB images, outputs are pixel classifications (semantic maps), bounding boxes and classification labels.
+Inputs are RGB images, outputs are pixel classifications (semantic maps), bounding boxes and classification labels.
 
 ![](Images/maskrcnn.png)
 
@@ -145,7 +145,7 @@ All inputs are RGB images, outputs are pixel classifications (semantic maps), bo
 
 Image translation is the task of transferring styles and characteristics from one image domain to another. This technique can be extended to other image-to-image learning operations, such as image enhancement, image colorization, defect generation, and medical image analysis.
 
-All inputs are images, outputs are translated RGB images. This example workflow shows how a semantic segmentation map input translates to a synthetic image via a pretrained model (Pix2PixHD):
+Inputs are images, outputs are translated RGB images. This example workflow shows how a semantic segmentation map input translates to a synthetic image via a pretrained model (Pix2PixHD):
 
 ![](Images/generativeimage.png)
 
