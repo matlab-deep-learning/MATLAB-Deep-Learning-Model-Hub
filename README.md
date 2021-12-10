@@ -145,7 +145,7 @@ All inputs are RGB images, outputs are pixel classifications (semantic maps), bo
 
 Image translation is the task of transferring styles and characteristics from one image domain to another. This technique can be extended to other image-to-image learning operations, such as image enhancement, image colorization, defect generation, and medical image analysis.
 
-All inputs images, outputs are translated RGB images. This example workflow shows how a semantic segmentation map input translates to a synthetic image via a pretrained model (Pix2PixHD):
+All inputs are images, outputs are translated RGB images. This example workflow shows how a semantic segmentation map input translates to a synthetic image via a pretrained model (Pix2PixHD):
 
 ![](Images/generativeimage.png)
 
