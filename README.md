@@ -257,11 +257,11 @@ Speech to text pretrained models take an audio input and translate it into a tex
 
 Inputs are Audio signals, outputs are audio feature embeddings.
 
-![](Images/wav2rec.png)
+![](Images/wav2vec.png)
 
 | Network  | Application | Size (MB) | Word Error Rate (WER) | Location | 
 | ------------- | ------------- | ------------- |------------- |------------- |
-| <a name="Speech2Text"/>[wav2rec](https://github.com/matlab-deep-learning/wav2vec-2.0)   | Speech to Text | 236| 3.2 |[GitHub](https://github.com/matlab-deep-learning/wav2vec-2.0) |
+| <a name="Speech2Text"/>[wav2vec](https://github.com/matlab-deep-learning/wav2vec-2.0)   | Speech to Text | 236| 3.2 |[GitHub](https://github.com/matlab-deep-learning/wav2vec-2.0) |
 
 [Back to top](#Models)
 
