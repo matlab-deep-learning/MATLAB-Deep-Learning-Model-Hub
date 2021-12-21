@@ -241,7 +241,7 @@ Inputs are Audio signals, outputs are audio feature embeddings.
 
 | Network  | Application | Size (MB) | Location |
 | ------------- | ------------- | ------------- |------------- |
-| [VGGish](https://www.mathworks.com/help/releases/R2020b/audio/ref/vggish.html)   | Feature Embeddings | 257 |[Doc](https://www.mathworks.com/help/releases/R2020b/audio/ref/vggish.html) |
+| [VGGish](https://www.mathworks.com/help/audio/ref/vggish.html)   | Feature Embeddings | 257 |[Doc](https://www.mathworks.com/help/audio/ref/vggish.html) |
 | [OpenL3](https://www.mathworks.com/help/audio/ref/openl3.html)   | Feature Embeddings | 200 |[Doc](https://www.mathworks.com/help/audio/ref/openl3.html) |
 
 **Application Specific Audio Models**
