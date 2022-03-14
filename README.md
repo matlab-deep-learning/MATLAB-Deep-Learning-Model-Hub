@@ -85,7 +85,7 @@ These networks have been trained to detect 80 objects classes from the COCO data
 | Network  | Backbone Networks |  Size (MB) | Mean Average Precision (mAP) |Object Classes | Location |
 | ------------- | ------------- |------------ | ------------- |------------ |------------ |
 | [EfficientDet-D0](https://github.com/matlab-deep-learning/pretrained-efficientdet-d0) | efficientnet |15.9 | 33.7 |80 |[GitHub](https://github.com/matlab-deep-learning/pretrained-efficientdet-d0) | 
-| [YOLO v4](https://github.com/matlab-deep-learning/pretrained-yolo-v4) | yolov4-coco <br /> yolov4-tiny-coco| 229 <br /> 21.5 | 44.2 <br />19.7|80 |[GitHub](https://github.com/matlab-deep-learning/pretrained-yolo-v4)| 
+| [YOLO v4](https://www.mathworks.com/help/vision/ref/yolov4objectdetector.html) | yolov4-coco <br /> yolov4-tiny-coco| 229 <br /> 21.5 | 44.2 <br />19.7|80 |[Doc](https://www.mathworks.com/help/vision/ref/yolov4objectdetector.html)<br />[GitHub](https://github.com/matlab-deep-learning/pretrained-yolo-v4)| 
 | [YOLO v3](https://www.mathworks.com/help/vision/ref/yolov3objectdetector.html)| darknet53-coco <br /> tiny-yolov3-coco | 220.4 <br /> 31.5 | 34.4 <br /> 9.3 |80 |[Doc](https://www.mathworks.com/help/vision/ref/yolov3objectdetector.html) |
 | [YOLO v2](https://github.com/matlab-deep-learning/Object-Detection-Using-Pretrained-YOLO-v2)   | darknet19-VOC <br /> darknet19-COCO <br />tiny-yolo_v2-coco|180 <br /> 181 <br /> 40 | 75.4 <br /> 28.7 <br /> 10.5 |80 |[GitHub](https://github.com/matlab-deep-learning/Object-Detection-Using-Pretrained-YOLO-v2)|
 
@@ -199,7 +199,7 @@ Inputs are RGB images, outputs are bounding boxes that identify regions of text.
 
 | Network  | Application | Size (MB) | Location |
 | ------------- | ------------- |------------- |------------- |
-| [CRAFT](https://github.com/matlab-deep-learning/Text-Detection-using-Deep-Learning)   | Trained to detect English, Korean, Italian, French, Arabic, German and Bangla (Indian).| 3.8 |[GitHub](https://github.com/matlab-deep-learning/Text-Detection-using-Deep-Learning) |
+| [CRAFT](https://www.mathworks.com/help/vision/ref/detecttextcraft.html)   | Trained to detect English, Korean, Italian, French, Arabic, German and Bangla (Indian).| 3.8 |[Doc](https://www.mathworks.com/help/vision/ref/detecttextcraft.html) <br /> [GitHub](https://github.com/matlab-deep-learning/Text-Detection-using-Deep-Learning) |
 
 **Application Specific Text Detectors**
 
