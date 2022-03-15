@@ -293,3 +293,6 @@ Alternatively send the request through to:
 [David Willingham](https://www.linkedin.com/in/davidwillingham/) <br /> 
 Deep Learning Product Manager <br /> 
 dwilling@mathworks.com
+
+Copyright 2022, The MathWorks, Inc.
+
