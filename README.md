@@ -255,7 +255,7 @@ Inputs are Audio signals, outputs are audio feature embeddings.
 
 Speech to text pretrained models take an audio input and translate it into a text output. They are useful in digitizating audio files for downstream text processing tasks such as text summarization and sentiment analysis.
 
-Inputs are Audio signals, outputs are audio feature embeddings.
+Inputs are Audio signals, outputs is text.
 
 ![](Images/wav2vec.png)
 
