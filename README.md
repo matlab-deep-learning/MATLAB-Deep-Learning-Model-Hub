@@ -261,7 +261,8 @@ Inputs are Audio signals, outputs is text.
 
 | Network  | Application | Size (MB) | Word Error Rate (WER) | Location | 
 | ------------- | ------------- | ------------- |------------- |------------- |
-| <a name="Speech2Text"/>[wav2vec](https://github.com/matlab-deep-learning/wav2vec-2.0)   | Speech to Text | 236| 3.2 |[GitHub](https://github.com/matlab-deep-learning/wav2vec-2.0) |
+| [wav2vec](https://github.com/matlab-deep-learning/wav2vec-2.0)   | Speech to Text | 236| 3.2 |[GitHub](https://github.com/matlab-deep-learning/wav2vec-2.0) |
+| [deepspeech](https://github.com/matlab-deep-learning/deepspeech)   | Speech to Text | 167| 5.97 |[GitHub](https://github.com/matlab-deep-learning/deepspeech) |
 
 [Back to top](#Models)
 
