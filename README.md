@@ -221,7 +221,7 @@ Inputs are sequences of text, outputs are text feature embeddings.
 
 | Network  | Applications | Size (MB) | Location |
 | ------------- | ------------- |------------ |------------ |
-| [BERT](https://github.com/matlab-deep-learning/transformer-models#bert-and-finbert)   | feature extraction, text classification, token classification, name entity recognition |390 |[GitHub](https://github.com/matlab-deep-learning/transformer-models#bert-and-finbert)  | 
+| [BERT](https://github.com/matlab-deep-learning/transformer-models#bert-and-finbert)   | Feature Extraction (Sentence and Word embedding), Text Classification, Token Classification, Masked Language Modeling, Question Answering |390 |[GitHub](https://github.com/matlab-deep-learning/transformer-models#bert-and-finbert)  | 
 
 **Application Specific Transformers**
 
