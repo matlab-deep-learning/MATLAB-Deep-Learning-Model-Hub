@@ -100,7 +100,7 @@ These networks have been trained to detect specific objects for a given applicat
 | Network  | Application |Size (MB) |Location |Example Output |
 | ------------- | ------------- | ------------- |------------- |------------- |
 | [Spatial-CNN](https://github.com/matlab-deep-learning/pretrained-spatial-CNN)   | Lane detection | 74 |[GitHub ](https://github.com/matlab-deep-learning/pretrained-spatial-CNN)|<img src="Images/lanedetection.jpg" width=150>|
-| [RESA](https://github.com/matlab-deep-learning/Pretrained-RESA-Network-For-Road-Boundary-Detection)   | Road Boundary detection | - |[GitHub ](https://github.com/matlab-deep-learning/Pretrained-RESA-Network-For-Road-Boundary-Detection)|<img src="Images/road_boundary.png" width=150>|
+| [RESA](https://github.com/matlab-deep-learning/Pretrained-RESA-Network-For-Road-Boundary-Detection)   | Road Boundary detection | 95 |[GitHub ](https://github.com/matlab-deep-learning/Pretrained-RESA-Network-For-Road-Boundary-Detection)|<img src="Images/road_boundary.png" width=150>|
 | [Single Shot Detector (SSD)](https://www.mathworks.com/help/vision/ug/object-detection-using-single-shot-detector.html)   | Vehicle detection | 44 |[Doc ](https://www.mathworks.com/help/vision/ug/object-detection-using-single-shot-detector.html)|<img src="Images/ObjectDetectionUsingSSD.png" width=150>|
 | [Faster R-CNN](https://www.mathworks.com/help/vision/ug/object-detection-using-faster-r-cnn-deep-learning.html)   | Vehicle detection | 118 |[Doc](https://www.mathworks.com/help/vision/ug/object-detection-using-faster-r-cnn-deep-learning.html)|<img src="Images/faster_rcnn.png" width=150>|
 
