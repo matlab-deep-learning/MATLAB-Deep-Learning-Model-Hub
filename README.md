@@ -233,7 +233,7 @@ Inputs are sequences of text, outputs are text feature embeddings.
 
 [Back to top](#Models)
 
-## Audio <a name="AudioEmbeddings"/>
+## Audio Embeddings <a name="AudioEmbeddings"/>
 
 Audio Embedding pretrained models have already learned to extract powerful and informative features from audio signals. Use them as a starting point to learn a new task using transfer learning. 
 
