@@ -5,7 +5,7 @@ Discover pretrained models for deep learning in MATLAB.
 ## Models <a name="Models"/>
 
 ### Computer Vision
-* [Image Classification](#ImageClassification)
+* [Image Classification](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#image-classification-)
 * [Object Detection](#ObjectDetection)
 * [Semantic Segmentation](#SemanticSegmentation)
 * [Instance Segmentation](#InstanceSegmentation)
