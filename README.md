@@ -18,7 +18,7 @@ Discover pretrained models for deep learning in MATLAB.
 * [Transformers](#transformers)
 
 ### Audio
-* [Audio Embeddings](#Audio)
+* [Audio Embeddings](#AudioEmbeddings)
 * [Sound Classification](#SoundClassification)
 * [Pitch Estimation](#PitchEstimation)
 * [Speech to Text](#Speech2Text)
@@ -233,7 +233,7 @@ Inputs are sequences of text, outputs are text feature embeddings.
 
 [Back to top](#Models)
 
-## Audio <a name="Audio"/>
+## Audio <a name="AudioEmbeddings"/>
 
 Audio Embedding pretrained models have already learned to extract powerful and informative features from audio signals. Use them as a starting point to learn a new task using transfer learning. 
 
@@ -250,6 +250,7 @@ Inputs are Audio signals, outputs are audio feature embeddings.
 
 | Network  | Application | Size (MB) | Output Classes | Location | Output Example |
 | ------------- | ------------- | ------------- |------------- |------------- |------------- |
+| <a name="SoundClassification"/>[vadnet](https://www.mathworks.com/help/audio/ref/vadnet.html)   | Voice Activity Detection (regression) | 0.427 | - |[Doc](https://www.mathworks.com/help/audio/ref/vadnet.html) |<img src="Images/vadnet.png" width=150>|
 | <a name="SoundClassification"/>[YAMNet](https://www.mathworks.com/help/audio/ref/yamnet.html)   | Sound Classification | 13.5 | 521 |[Doc](https://www.mathworks.com/help/audio/ref/yamnet.html) |<img src="Images/audio_classification.png" width=150>|
 | <a name="PitchEstimation"/>[CREPE](https://www.mathworks.com/help/audio/ref/crepe.html)   | Pitch Estimation (Regression) | 132| - |[Doc](https://www.mathworks.com/help/audio/ref/crepe.html) |<img src="Images/pitch_estimation.png" width=150>|
 
