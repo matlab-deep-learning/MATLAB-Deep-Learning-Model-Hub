@@ -294,9 +294,9 @@ If you'd like to request MATLAB support for additional pretrained models, [**ple
 
 Alternatively send the request through to:
 
-[David Willingham](https://www.linkedin.com/in/davidwillingham/) <br /> 
+[Jianghao Wang](https://www.linkedin.com/in/jianghao-wang-896aa1a4/) <br /> 
 Deep Learning Product Manager <br /> 
-dwilling@mathworks.com
+jianghaw@mathworks.com
 
-Copyright 2022, The MathWorks, Inc.
+Copyright 2023, The MathWorks, Inc.
 
