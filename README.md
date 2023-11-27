@@ -207,7 +207,7 @@ Inputs are RGB images, outputs are bounding boxes that identify regions of text.
 
 | Network  | Application | Size (MB) | Location |Example Output |
 | ------------- | ------------- |------------- |------------- |------------- |
-| [Seven Segment Digit Recognition](https://github.com/matlab-deep-learning/Seven-Segment-Digit-Recognition)   |Seven segment digit recognition using deep learning and OCR. This is helpful in industrial automation applications where digital displays are often surrounded with complex background. | 3.8 |[GitHub](https://github.com/matlab-deep-learning/Seven-Segment-Digit-Recognition)  |![](Images/7segment.png)|
+| [Seven Segment Digit Recognition](https://github.com/matlab-deep-learning/Seven-Segment-Digit-Recognition)   |Seven segment digit recognition using deep learning and OCR. This is helpful in industrial automation applications where digital displays are often surrounded with complex background. | 3.8 |[Doc](https://www.mathworks.com/help/vision/ref/ocr.html) <br /> [GitHub](https://github.com/matlab-deep-learning/Seven-Segment-Digit-Recognition)  |![](Images/7segment.png)|
 
 [Back to top](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#matlab-deep-learning-model-hub)
 
