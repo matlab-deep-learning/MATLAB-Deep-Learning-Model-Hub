@@ -11,6 +11,7 @@ Discover pretrained models for deep learning in MATLAB.
 * [Instance Segmentation](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#instance-segmentation-)
 * [Image Translation](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#image-translation-)
 * [Pose Estimation](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#pose-estimation-)
+* [3D Reconstruction](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#3d-reconstruction-)
 * [Video Classification](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#video-classification-)
 * [Text Detection & Recognition](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#text-detection-and-recognition-)
 
@@ -172,6 +173,16 @@ All inputs are RGB images, outputs are heatmaps and part affinity fields (PAFs) 
 | Network  | Size (MB)| Location|
 | ------------- | ------------- |------------- |
 | [OpenPose](https://www.mathworks.com/help/deeplearning/ug/estimate-body-pose-using-deep-learning.html)   | 14 | [Doc](https://www.mathworks.com/help/deeplearning/ug/estimate-body-pose-using-deep-learning.html) |
+
+[Back to top](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#matlab-deep-learning-model-hub)
+
+## 3D Reconstruction <a name="3DReconstruction"/>
+
+3D reconstruction is the process of capturing the shape and appearance of real objects.
+
+| Network  | Size (MB)| Location|Example Output|
+| ------------- | ------------- |------------- |------------- |
+| [NeRF](https://github.com/matlab-deep-learning/nerf)   | 3.78 |[GitHub](https://github.com/matlab-deep-learning/nerf)|![NeRF](Images/nerf.jpg) |
 
 [Back to top](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#matlab-deep-learning-model-hub)
 
