@@ -170,12 +170,12 @@ All inputs are RGB images, outputs are heatmaps and part affinity fields (PAFs) 
 
 ![](Images/pose_workflow.png)
 
-| Network  | Size (MB)| Location|
-| ------------- | ------------- |------------- |
-| [OpenPose](https://www.mathworks.com/help/deeplearning/ug/estimate-body-pose-using-deep-learning.html)   | 14 | [Doc](https://www.mathworks.com/help/deeplearning/ug/estimate-body-pose-using-deep-learning.html) |
+| Network  | Backbone Networks | Size (MB)| Location|
+| ------------- | -------------| ------------- |------------- |
+| [OpenPose](https://www.mathworks.com/help/deeplearning/ug/estimate-body-pose-using-deep-learning.html) | vgg19  | 14 | [Doc](https://www.mathworks.com/help/deeplearning/ug/estimate-body-pose-using-deep-learning.html) |
+| [HR Net](https://www.mathworks.com/help/vision/ref/hrnetobjectkeypointdetector.html) | human-full-body-w32<br />human-full-body-w48  | 106.9<br />237.7 | [Doc](https://www.mathworks.com/help/vision/ref/hrnetobjectkeypointdetector.html) |
 
 [Back to top](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#matlab-deep-learning-model-hub)
-
 ## 3D Reconstruction <a name="3DReconstruction"/>
 
 3D reconstruction is the process of capturing the shape and appearance of real objects.
