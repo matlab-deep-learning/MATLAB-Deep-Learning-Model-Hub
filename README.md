@@ -83,9 +83,10 @@ Inputs are RGB images, the output is the predicted label, bounding box and score
 
 These networks have been trained to detect 80 objects classes from the COCO dataset. These models are suitable for training a custom object detector using transfer learning.
 
-| Network  | Backbone Networks |  Size (MB) | Mean Average Precision (mAP) |Object Classes | Location |
+| Network  | Network variants |  Size (MB) | Mean Average Precision (mAP) |Object Classes | Location |
 | ------------- | ------------- |------------ | ------------- |------------ |------------ |
 | [EfficientDet-D0](https://github.com/matlab-deep-learning/pretrained-efficientdet-d0) | efficientnet |15.9 | 33.7 |80 |[GitHub](https://github.com/matlab-deep-learning/pretrained-efficientdet-d0) | 
+| [YOLO v8](https://github.com/matlab-deep-learning/Pretrained-YOLOv8-Network-For-Object-Detection) | yolo8n<br />yolo8s<br />yolo8m<br />yolo8l<br />yolo8x | 10.7 <br /> 37.2<br />85.4 <br />143.3<br />222.7 | 37.3<br />44.9<br />50.2<br />52.9<br />53.9|80 |[GitHub](https://github.com/matlab-deep-learning/Pretrained-YOLOv8-Network-For-Object-Detection)| 
 | [YOLOX](https://www.mathworks.com/help/vision/ref/yoloxobjectdetector.html) | YoloX-s<br />YoloX-m<br />YoloX-l | 32 <br /> 90.2<br />192.9 | 39.8 <br />45.9<br />48.6|80 |[Doc](https://www.mathworks.com/help/vision/ref/yoloxobjectdetector.html)<br />[GitHub](https://github.com/matlab-deep-learning/Pretrained-YOLOX-Network-For-Object-Detection)| 
 | [YOLO v4](https://www.mathworks.com/help/vision/ref/yolov4objectdetector.html) | yolov4-coco <br /> yolov4-tiny-coco| 229 <br /> 21.5 | 44.2 <br />19.7|80 |[Doc](https://www.mathworks.com/help/vision/ref/yolov4objectdetector.html)<br />[GitHub](https://github.com/matlab-deep-learning/pretrained-yolo-v4)| 
 | [YOLO v3](https://www.mathworks.com/help/vision/ref/yolov3objectdetector.html)| darknet53-coco <br /> tiny-yolov3-coco | 220.4 <br /> 31.5 | 34.4 <br /> 9.3 |80 |[Doc](https://www.mathworks.com/help/vision/ref/yolov3objectdetector.html) |
