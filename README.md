@@ -20,7 +20,7 @@ Discover pretrained models for deep learning in MATLAB.
 
 ### Audio
 * [Audio Embeddings](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#audio-embeddings-)
-* [Sound Classification](#SoundClassification)
+* [Sound Classification](#Application Specific Audio Models)
 * [Pitch Estimation](#PitchEstimation)
 * [Speech to Text](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#speech-to-text-)
 
@@ -41,27 +41,29 @@ These networks have been trained on more than a million images and can classify 
 
 **Models available in MATLAB:**
 
+**Note 1: Since R2024a, please use the [imagePretrainedNetwork](https://www.mathworks.com/help/deeplearning/ref/imagepretrainednetwork.html) function instead and specify the pretrained model**.
+
 | Network |   Size (MB)  | Classes | Accuracy % | Location | 
 | ------------- | ------------- | ------------- |  ------------- |  ------------- | 
-| [googlenet](https://www.mathworks.com/help/deeplearning/ref/googlenet.html) | 27| 1000| 66.25 |[Doc](https://www.mathworks.com/help/deeplearning/ref/googlenet.html) <br />[GitHub](https://github.com/matlab-deep-learning/googlenet) |
-| [squeezenet](https://www.mathworks.com/help/deeplearning/ref/squeezenet.html)   | 5.2|  1000| 55.16 |[Doc](https://www.mathworks.com/help/deeplearning/ref/squeezenet.html) |
-| [alexnet](https://www.mathworks.com/help/deeplearning/ref/alexnet.html)  |  227|  1000|54.10|[Doc](https://www.mathworks.com/help/deeplearning/ref/alexnet.html) |
-| [resnet18](https://www.mathworks.com/help/deeplearning/ref/resnet18.html)   |  44|  1000|69.49|[Doc](https://www.mathworks.com/help/deeplearning/ref/resnet18.html) <br />[GitHub](https://github.com/matlab-deep-learning/resnet-18) |
-| [resnet50](https://www.mathworks.com/help/deeplearning/ref/resnet50.html)   |  96|  1000|74.46|[Doc](https://www.mathworks.com/help/deeplearning/ref/resnet50.html) <br />[GitHub](https://github.com/matlab-deep-learning/resnet-50) |
-| [resnet101](https://www.mathworks.com/help/deeplearning/ref/resnet101.html)   |  167|  1000|75.96|[Doc](https://www.mathworks.com/help/deeplearning/ref/resnet101.html) <br />[GitHub](https://github.com/matlab-deep-learning/resnet-101) |
-| [mobilenetv2](https://www.mathworks.com/help/deeplearning/ref/mobilenetv2.html)    | 13| 1000| 70.44|[Doc](https://www.mathworks.com/help/deeplearning/ref/mobilenetv2.html) <br />[GitHub](https://github.com/matlab-deep-learning/mobilenet-v2) |
-| [vgg16](https://www.mathworks.com/help/deeplearning/ref/vgg16.html)    |  515|  1000|70.29|[Doc](https://www.mathworks.com/help/deeplearning/ref/vgg16.html) |
-| [vgg19](https://www.mathworks.com/help/deeplearning/ref/vgg19.html)    |  535|  1000|70.42|[Doc](https://www.mathworks.com/help/deeplearning/ref/vgg19.html) |
-| [inceptionv3](https://www.mathworks.com/help/deeplearning/ref/inceptionv3.html) | 89|  1000|77.07|[Doc](https://www.mathworks.com/help/deeplearning/ref/inceptionv3.html) |
-| [inceptionresnetv2](https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html)  | 209|  1000|79.62|[Doc](https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html) |
-| [xception](https://www.mathworks.com/help/deeplearning/ref/xception.html)   |  85|  1000|78.20|[Doc](https://www.mathworks.com/help/deeplearning/ref/xception.html) |
-| [darknet19](https://www.mathworks.com/help/deeplearning/ref/darknet19.html)   |  78| 1000|74.00|[Doc](https://www.mathworks.com/help/deeplearning/ref/darknet19.html) |
-| [darknet53](https://www.mathworks.com/help/deeplearning/ref/darknet53.html)    |  155|  1000|76.46|[Doc](https://www.mathworks.com/help/deeplearning/ref/darknet53.html) |
-| [densenet201](https://www.mathworks.com/help/deeplearning/ref/densenet201.html)    | 77| 1000| 75.85|[Doc](https://www.mathworks.com/help/deeplearning/ref/densenet201.html) |
-| [shufflenet](https://www.mathworks.com/help/deeplearning/ref/shufflenet.html)   | 5.4|  1000|63.73|[Doc](https://www.mathworks.com/help/deeplearning/ref/shufflenet.html) |
-| [nasnetmobile](https://www.mathworks.com/help/deeplearning/ref/nasnetmobile.html)    | 20|  1000|73.41|[Doc](https://www.mathworks.com/help/deeplearning/ref/nasnetmobile.html) |
-| [nasnetlarge](https://www.mathworks.com/help/deeplearning/ref/nasnetlarge.html)    |  332| 1000|81.83|[Doc](https://www.mathworks.com/help/deeplearning/ref/nasnetlarge.html) |
-| [efficientnetb0](https://www.mathworks.com/help/deeplearning/ref/efficientnetb0.html)   | 20|  1000|74.72|[Doc](https://www.mathworks.com/help/deeplearning/ref/efficientnetb0.html) |
+| [googlenet](https://www.mathworks.com/help/deeplearning/ref/googlenet.html)<sup>1<sup> | 27| 1000| 66.25 |[Doc](https://www.mathworks.com/help/deeplearning/ref/googlenet.html) <br />[GitHub](https://github.com/matlab-deep-learning/googlenet) |
+| [squeezenet](https://www.mathworks.com/help/deeplearning/ref/squeezenet.html)<sup>1<sup>   | 5.2|  1000| 55.16 |[Doc](https://www.mathworks.com/help/deeplearning/ref/squeezenet.html) |
+| [alexnet](https://www.mathworks.com/help/deeplearning/ref/alexnet.html)<sup>1<sup>  |  227|  1000|54.10|[Doc](https://www.mathworks.com/help/deeplearning/ref/alexnet.html) |
+| [resnet18](https://www.mathworks.com/help/deeplearning/ref/resnet18.html)<sup>1<sup>   |  44|  1000|69.49|[Doc](https://www.mathworks.com/help/deeplearning/ref/resnet18.html) <br />[GitHub](https://github.com/matlab-deep-learning/resnet-18) |
+| [resnet50](https://www.mathworks.com/help/deeplearning/ref/resnet50.html)<sup>1<sup>   |  96|  1000|74.46|[Doc](https://www.mathworks.com/help/deeplearning/ref/resnet50.html) <br />[GitHub](https://github.com/matlab-deep-learning/resnet-50) |
+| [resnet101](https://www.mathworks.com/help/deeplearning/ref/resnet101.html)<sup>1<sup>   |  167|  1000|75.96|[Doc](https://www.mathworks.com/help/deeplearning/ref/resnet101.html) <br />[GitHub](https://github.com/matlab-deep-learning/resnet-101) |
+| [mobilenetv2](https://www.mathworks.com/help/deeplearning/ref/mobilenetv2.html)<sup>1<sup>    | 13| 1000| 70.44|[Doc](https://www.mathworks.com/help/deeplearning/ref/mobilenetv2.html) <br />[GitHub](https://github.com/matlab-deep-learning/mobilenet-v2) |
+| [vgg16](https://www.mathworks.com/help/deeplearning/ref/vgg16.html)<sup>1<sup>    |  515|  1000|70.29|[Doc](https://www.mathworks.com/help/deeplearning/ref/vgg16.html) |
+| [vgg19](https://www.mathworks.com/help/deeplearning/ref/vgg19.html)<sup>1<sup>    |  535|  1000|70.42|[Doc](https://www.mathworks.com/help/deeplearning/ref/vgg19.html) |
+| [inceptionv3](https://www.mathworks.com/help/deeplearning/ref/inceptionv3.html)<sup>1<sup> | 89|  1000|77.07|[Doc](https://www.mathworks.com/help/deeplearning/ref/inceptionv3.html) |
+| [inceptionresnetv2](https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html)<sup>1<sup>  | 209|  1000|79.62|[Doc](https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html) |
+| [xception](https://www.mathworks.com/help/deeplearning/ref/xception.html)<sup>1<sup>   |  85|  1000|78.20|[Doc](https://www.mathworks.com/help/deeplearning/ref/xception.html) |
+| [darknet19](https://www.mathworks.com/help/deeplearning/ref/darknet19.html)<sup>1<sup>   |  78| 1000|74.00|[Doc](https://www.mathworks.com/help/deeplearning/ref/darknet19.html) |
+| [darknet53](https://www.mathworks.com/help/deeplearning/ref/darknet53.html)<sup>1<sup>    |  155|  1000|76.46|[Doc](https://www.mathworks.com/help/deeplearning/ref/darknet53.html) |
+| [densenet201](https://www.mathworks.com/help/deeplearning/ref/densenet201.html)<sup>1<sup>    | 77| 1000| 75.85|[Doc](https://www.mathworks.com/help/deeplearning/ref/densenet201.html) |
+| [shufflenet](https://www.mathworks.com/help/deeplearning/ref/shufflenet.html)<sup>1<sup>   | 5.4|  1000|63.73|[Doc](https://www.mathworks.com/help/deeplearning/ref/shufflenet.html) |
+| [nasnetmobile](https://www.mathworks.com/help/deeplearning/ref/nasnetmobile.html)<sup>1<sup>    | 20|  1000|73.41|[Doc](https://www.mathworks.com/help/deeplearning/ref/nasnetmobile.html) |
+| [nasnetlarge](https://www.mathworks.com/help/deeplearning/ref/nasnetlarge.html)<sup>1<sup>    |  332| 1000|81.83|[Doc](https://www.mathworks.com/help/deeplearning/ref/nasnetlarge.html) |
+| [efficientnetb0](https://www.mathworks.com/help/deeplearning/ref/efficientnetb0.html)<sup>1<sup>   | 20|  1000|74.72|[Doc](https://www.mathworks.com/help/deeplearning/ref/efficientnetb0.html) |
 | [ConvMixer](https://github.com/matlab-deep-learning/convmixer-patches-are-all-you-need)   | 7.7|  10|-|[GitHub](https://github.com/matlab-deep-learning/convmixer-patches-are-all-you-need) |
 | [Vison Transformer](https://www.mathworks.com/help/vision/ref/visiontransformer.html)   | Large-16 - 1100<br /> Base-16 - 331.4<br /> Small-16 - 84.7<br /> Tiny-16 - 22.2|  1000|Large-16 - 85.59<br /> Base-16 - 85.49<br /> Small-16 - 83.73<br /> Tiny-16 - 78.22|[Doc](https://www.mathworks.com/help/vision/ref/visiontransformer.html) |
 
@@ -235,7 +237,9 @@ Inputs are sequences of text, outputs are text feature embeddings.
 
 | Network  | Applications | Size (MB) | Location |
 | ------------- | ------------- |------------ |------------ |
-| [BERT](https://github.com/matlab-deep-learning/transformer-models#bert-and-finbert)   | Feature Extraction (Sentence and Word embedding), Text Classification, Token Classification, Masked Language Modeling, Question Answering |390 |[GitHub](https://github.com/matlab-deep-learning/transformer-models#bert-and-finbert)  | 
+| [BERT](https://www.mathworks.com/help/textanalytics/ref/bert.html)   | Feature Extraction (Sentence and Word embedding), Text Classification, Token Classification, Masked Language Modeling, Question Answering |390 |[GitHub](https://github.com/matlab-deep-learning/transformer-models#bert-and-finbert) <br /> [Doc](https://www.mathworks.com/help/textanalytics/ref/bert.html) | 
+| [all-MiniLM-L6-v2](https://www.mathworks.com/matlabcentral/fileexchange/156399-text-analytics-toolbox-model-for-all-minilm-l6-v2-network)   | Document Embedding, Clustering, Information Retrieval  |80 |[Doc](https://www.mathworks.com/matlabcentral/fileexchange/156399-text-analytics-toolbox-model-for-all-minilm-l6-v2-network)  | 
+| [all-MiniLM-L12-v2](https://www.mathworks.com/matlabcentral/fileexchange/156394-text-analytics-toolbox-model-for-all-minilm-l12-v2-network)   | Document Embedding, Clustering, Information Retrieval  |120 |[Doc](https://www.mathworks.com/matlabcentral/fileexchange/156394-text-analytics-toolbox-model-for-all-minilm-l12-v2-network)  | 
 
 **Application Specific Transformers**
 
@@ -248,30 +252,31 @@ Inputs are sequences of text, outputs are text feature embeddings.
 
 ## Audio Embeddings <a name="AudioEmbeddings"/>
 
-Audio Embedding pretrained models have already learned to extract powerful and informative features from audio signals. Use them as a starting point to learn a new task using transfer learning. 
+Audio embedding pretrained models have already learned to extract powerful and informative features from audio signals. Use them as a starting point to learn a new task using transfer learning. 
 
-Inputs are Audio signals, outputs are audio feature embeddings.
+Inputs are audio signals, outputs are audio feature embeddings.
 
 ![](Images/audio_workflow.png)
 
+**Note 2: Since R2024a, please use the [audioPretrainedNetwork](https://www.mathworks.com/help/audio/ref/audiopretrainednetwork.html) function instead and specify the pretrained model**.
 | Network  | Application | Size (MB) | Location |
 | ------------- | ------------- | ------------- |------------- |
-| [VGGish](https://www.mathworks.com/help/audio/ref/vggish.html)   | Feature Embeddings | 257 |[Doc](https://www.mathworks.com/help/audio/ref/vggish.html) |
-| [OpenL3](https://www.mathworks.com/help/audio/ref/openl3.html)   | Feature Embeddings | 200 |[Doc](https://www.mathworks.com/help/audio/ref/openl3.html) |
+| [VGGish](https://www.mathworks.com/help/audio/ref/vggish.html)<sup>2<sup>   | Feature Embeddings | 257 |[Doc](https://www.mathworks.com/help/audio/ref/vggish.html) |
+| [OpenL3](https://www.mathworks.com/help/audio/ref/openl3.html)<sup>2<sup>   | Feature Embeddings | 200 |[Doc](https://www.mathworks.com/help/audio/ref/openl3.html) |
 
-**Application Specific Audio Models**
+## Application Specific Audio Models<a name="Application Specific Audio Models"/>
 
 | Network  | Application | Size (MB) | Output Classes | Location | Output Example |
 | ------------- | ------------- | ------------- |------------- |------------- |------------- |
-| <a name="SoundClassification"/>[vadnet](https://www.mathworks.com/help/audio/ref/vadnet.html)   | Voice Activity Detection (regression) | 0.427 | - |[Doc](https://www.mathworks.com/help/audio/ref/vadnet.html) |<img src="Images/vadnet.png" width=150>|
-| <a name="SoundClassification"/>[YAMNet](https://www.mathworks.com/help/audio/ref/yamnet.html)   | Sound Classification | 13.5 | 521 |[Doc](https://www.mathworks.com/help/audio/ref/yamnet.html) |<img src="Images/audio_classification.png" width=150>|
-| <a name="PitchEstimation"/>[CREPE](https://www.mathworks.com/help/audio/ref/crepe.html)   | Pitch Estimation (Regression) | 132| - |[Doc](https://www.mathworks.com/help/audio/ref/crepe.html) |<img src="Images/pitch_estimation.png" width=150>|
+| <a name="SoundClassification"/>[vadnet](https://www.mathworks.com/help/audio/ref/vadnet.html)<sup>2<sup>   | Voice Activity Detection (regression) | 0.427 | - |[Doc](https://www.mathworks.com/help/audio/ref/vadnet.html) |<img src="Images/vadnet.png" width=150>|
+| <a name="SoundClassification"/>[YAMNet](https://www.mathworks.com/help/audio/ref/yamnet.html)<sup>2<sup>   | Sound Classification | 13.5 | 521 |[Doc](https://www.mathworks.com/help/audio/ref/yamnet.html) |<img src="Images/audio_classification.png" width=150>|
+| <a name="PitchEstimation"/>[CREPE](https://www.mathworks.com/help/audio/ref/crepe.html)<sup>2<sup>   | Pitch Estimation (regression) | 132| - |[Doc](https://www.mathworks.com/help/audio/ref/crepe.html) |<img src="Images/pitch_estimation.png" width=150>|
 
 ## Speech to Text <a name="Speech2Text"/>
 
-Speech to text pretrained models take an audio input and translate it into a text output. They are useful in digitizating audio files for downstream text processing tasks such as text summarization and sentiment analysis.
+Speech-to-text models provide a fast, efficient method to convert spoken language into written text, enhancing accessibility for individuals with disabilities, enabling downstream tasks like text summarization and sentiment analysis, and streamlining documentation processes. As a key element of human-machine interfaces, including personal assistants, it allows for natural and intuitive interactions, enabling machines to understand and execute spoken commands, improving usability and broadening inclusivity across various applications.
 
-Inputs are Audio signals, outputs is text.
+Inputs are audio signals, outputs is text.
 
 ![](Images/wav2vec.png)
 
