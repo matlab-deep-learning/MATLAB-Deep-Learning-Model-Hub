@@ -20,8 +20,8 @@ Discover pretrained models for deep learning in MATLAB.
 
 ### Audio
 * [Audio Embeddings](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#audio-embeddings-)
-* [Sound Classification](#Application Specific Audio Models)
-* [Pitch Estimation](#PitchEstimation)
+* [Sound Classification](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#application-specific-audio-models)
+* [Pitch Estimation](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#application-specific-audio-models)
 * [Speech to Text](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#speech-to-text-)
 
 ### Lidar 
