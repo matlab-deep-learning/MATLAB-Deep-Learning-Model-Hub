@@ -63,6 +63,7 @@ These networks have been trained on more than a million images and can classify 
 | [nasnetlarge](https://www.mathworks.com/help/deeplearning/ref/nasnetlarge.html)    |  332| 1000|81.83|[Doc](https://www.mathworks.com/help/deeplearning/ref/nasnetlarge.html) |
 | [efficientnetb0](https://www.mathworks.com/help/deeplearning/ref/efficientnetb0.html)   | 20|  1000|74.72|[Doc](https://www.mathworks.com/help/deeplearning/ref/efficientnetb0.html) |
 | [ConvMixer](https://github.com/matlab-deep-learning/convmixer-patches-are-all-you-need)   | 7.7|  10|-|[GitHub](https://github.com/matlab-deep-learning/convmixer-patches-are-all-you-need) |
+| [Vison Transformer](https://www.mathworks.com/help/vision/ref/visiontransformer.html)   | Large-16 - 1100<br /> Base-16 - 331.4<br /> Small-16 - 84.7<br /> Tiny-16 - 22.2|  1000|Large-16 - 85.59<br /> Base-16 - 85.49<br /> Small-16 - 83.73<br /> Tiny-16 - 78.22|[Doc](https://www.mathworks.com/help/vision/ref/visiontransformer.html) |
 
 **Tips for selecting a model**
 
