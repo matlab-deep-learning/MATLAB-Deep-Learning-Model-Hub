@@ -124,6 +124,13 @@ This network has been trained to detect 20 objects classes from the PASCAL VOC d
 | ------------- | ------------- |------------- |------------- |------------- |
 | [DeepLabv3+](https://github.com/matlab-deep-learning/pretrained-deeplabv3plus)   | 209 | 0.87 | 20 | [GitHub](https://github.com/matlab-deep-learning/pretrained-deeplabv3plus) |
 
+ Zero-shot image segmentation model
+
+| Network  | Size (MB) | Example Location |
+| ------------- | ------------- |------------- |------------- |------------- |
+| [segmentAnythingModel](https://www.mathworks.com/help/images/ref/segmentanythingmodel.html)  | 358 [Doc](https://www.mathworks.com/help/images/getting-started-with-segment-anything-model.html) |
+
+
 **Application Specific Semantic Segmentation Models**
 | Network  | Application |Size (MB) |Location |Example Output |
 | ------------- | ------------- | ------------- |------------- |------------- |
