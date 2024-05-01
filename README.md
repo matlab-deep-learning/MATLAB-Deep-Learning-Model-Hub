@@ -29,6 +29,9 @@ Discover pretrained models for deep learning in MATLAB.
 * [Point Cloud Segmentation](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#lidar-)
 * [Point Cloud Object Detection](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#lidar-)
 
+### Robotics
+* [Manipulator Motion Planning](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#robotics-)
+
 ## Image Classification <a name="ImageClassification"/>
 
 Pretrained image classification networks have already learned to extract powerful and informative features from natural images. Use them as a starting point to learn a new task using transfer learning. 
@@ -42,6 +45,10 @@ These networks have been trained on more than a million images and can classify 
 **Models available in MATLAB:**
 
 **Note 1: Since R2024a, please use the [imagePretrainedNetwork](https://www.mathworks.com/help/deeplearning/ref/imagepretrainednetwork.html) function instead and specify the pretrained model**.
+For example, use the following code to access googlenet:
+```
+[net, classes] = imagePretrainedNetwork("googlenet");
+```
 
 | Network |   Size (MB)  | Classes | Accuracy % | Location | 
 | ------------- | ------------- | ------------- |  ------------- |  ------------- | 
@@ -179,6 +186,7 @@ All inputs are RGB images, outputs are heatmaps and part affinity fields (PAFs) 
 | [OpenPose](https://www.mathworks.com/help/deeplearning/ug/estimate-body-pose-using-deep-learning.html) | vgg19  | 14 | [Doc](https://www.mathworks.com/help/deeplearning/ug/estimate-body-pose-using-deep-learning.html) |
 | [HR Net](https://www.mathworks.com/help/vision/ref/hrnetobjectkeypointdetector.html) | human-full-body-w32<br />human-full-body-w48  | 106.9<br />237.7 | [Doc](https://www.mathworks.com/help/vision/ref/hrnetobjectkeypointdetector.html) |
 
+
 [Back to top](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#matlab-deep-learning-model-hub)
 ## 3D Reconstruction <a name="3DReconstruction"/>
 
@@ -259,6 +267,11 @@ Inputs are audio signals, outputs are audio feature embeddings.
 ![](Images/audio_workflow.png)
 
 **Note 2: Since R2024a, please use the [audioPretrainedNetwork](https://www.mathworks.com/help/audio/ref/audiopretrainednetwork.html) function instead and specify the pretrained model**.
+For example, use the following code to access VGGish:
+```
+net = audioPretrainedNetwork("vggish");
+```
+
 | Network  | Application | Size (MB) | Location |
 | ------------- | ------------- | ------------- |------------- |
 | [VGGish](https://www.mathworks.com/help/audio/ref/vggish.html)<sup>2<sup>   | Feature Embeddings | 257 |[Doc](https://www.mathworks.com/help/audio/ref/vggish.html) |
@@ -304,6 +317,24 @@ Inputs are Lidar Point Clouds converted to five-channels, outputs are segmentati
 | [SalsaNext](https://github.com/matlab-deep-learning/pretrained-salsanext)   | Segmentation |20.9 | 13 |[GitHub](https://github.com/matlab-deep-learning/pretrained-salsanext)|
 | <a name="PointCloudObj"/>[PointPillars](https://www.mathworks.com/help/lidar/ug/object-detection-using-pointpillars-network.html)   | Object Detection | 8| 3 |[Doc](https://www.mathworks.com/help/lidar/ug/object-detection-using-pointpillars-network.html)|
 | [Complex YOLO v4](https://github.com/matlab-deep-learning/Lidar-object-detection-using-complex-yolov4)   | Object Detection | 233 (complex-yolov4) <br /> 21 (tiny-complex-yolov4) | 3 |[GitHub](https://github.com/matlab-deep-learning/Lidar-object-detection-using-complex-yolov4)|
+
+[Back to top](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#matlab-deep-learning-model-hub)
+
+## Manipulator Motion Planning <a name="ManipMotionPlanning"/>
+
+Manipulator motion planning is a technique used to plan a trajectory for a robotic arm from a start position to a goal position in an obstacle environment.
+  
+Pretrained deep learning models have learned to plan such trajectories  for repetitive tasks such as picking and placing of objects, leading to speed ups over traditional algorithms.
+
+Inputs are start configuration, goal configuration and obstacle environment encoding for the robot, outputs are intermediate trajectory guesses.
+
+![](Images/motion_planning_workflow.svg)
+
+| Network  | Application | Size (MB)| Location|
+| --- | --- | --- | --- |
+| [Deep-Learning-Based CHOMP (DLCHOMP)](https://www.mathworks.com/help/releases/R2024a/robotics/ref/dlchomp.html)   | Trajectory Prediction | 25 | [Doc](https://www.mathworks.com/help/releases/R2024a/robotics/ref/dlchomp.html)<br />[GitHub](https://github.com/matlab-deep-learning/pretrained-dlchomp) |
+
+
 
 [Back to top](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#matlab-deep-learning-model-hub)
 
