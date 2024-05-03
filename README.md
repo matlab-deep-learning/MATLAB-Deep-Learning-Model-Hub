@@ -30,7 +30,7 @@ Discover pretrained models for deep learning in MATLAB.
 * [Point Cloud Object Detection](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#lidar-)
 
 ### Robotics
-* [Manipulator Motion Planning](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#robotics-)
+* [Manipulator Motion Planning](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#manipulator-motion-planning-)
 
 ## Image Classification <a name="ImageClassification"/>
 
