@@ -30,7 +30,8 @@ Discover pretrained models for deep learning in MATLAB.
 * [Point Cloud Object Detection](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#lidar-)
 
 ### Robotics
-* [Manipulator Motion Planning](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#manipulator-motion-planning-)
+* [Manipulator Motion Planning](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#robotics-)
+* [Motion Planning Networks](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#robotics-)
 
 ## Image Classification <a name="ImageClassification"/>
 
@@ -327,7 +328,7 @@ Inputs are Lidar Point Clouds converted to five-channels, outputs are segmentati
 
 [Back to top](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#matlab-deep-learning-model-hub)
 
-## Manipulator Motion Planning <a name="ManipMotionPlanning"/>
+## Robotics <a name="RoboticsPlan"/>
 
 Manipulator motion planning is a technique used to plan a trajectory for a robotic arm from a start position to a goal position in an obstacle environment.
   
@@ -341,7 +342,16 @@ Inputs are start configuration, goal configuration and obstacle environment enco
 | --- | --- | --- | --- |
 | [Deep-Learning-Based CHOMP (DLCHOMP)](https://www.mathworks.com/help/releases/R2024a/robotics/ref/dlchomp.html)   | Trajectory Prediction | 25 | [Doc](https://www.mathworks.com/help/releases/R2024a/robotics/ref/dlchomp.html)<br />[GitHub](https://github.com/matlab-deep-learning/pretrained-dlchomp) |
 
+Motion Planning Networks (MPNet) is a deep-learning-based approach for finding optimal paths between a start point and goal point in motion planning problems.MPNet uses prior knowledge to find optimal states for motion planning.
 
+Pre-trained deep learning models have learned to state space sampling or path planning.
+
+![mpnet_path_planning](https://github.com/cuixing158/MATLAB-Deep-Learning-Model-Hub/assets/22857777/d98c297b-2008-4498-8085-91900dcf3c64)
+
+| Network  | Application | Size (MB)| Location|
+| --- | --- | --- | --- |
+| [Office-Map-Trained-MPNET (MPNet)](https://ww2.mathworks.cn/help/nav/ref/mpnetse2.html)   | State Space Sampling or Path Planning Prediction| 0.24 | [Doc1](https://ww2.mathworks.cn/help/nav/ref/mpnetse2.predict.html#mw_820c5c3b-d0c4-449b-8115-46cba5a9b35b)<br />[Doc2](https://ww2.mathworks.cn/help/nav/ref/plannermpnet.html#mw_7f4280bc-3bb2-4e0f-a4c1-f556ef10c5fb) |
+| [Maze-Map-Trained-MPNET (MPNet)](https://ww2.mathworks.cn/help/nav/ref/mpnetse2.html)   | State Space Sampling or Path Planning Prediction | 0.33 | [Doc1](https://ww2.mathworks.cn/help/nav/ref/mpnetse2.predict.html#mw_a16893a6-639c-4812-a983-ca9923c9aab5)<br />[Doc2](https://ww2.mathworks.cn/help/nav/ref/plannermpnet.plan.html#mw_105ff194-b41a-46b9-9365-e3beadde18fa) |
 
 [Back to top](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#matlab-deep-learning-model-hub)
 
