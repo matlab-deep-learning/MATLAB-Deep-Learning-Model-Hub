@@ -30,7 +30,7 @@ Discover pretrained models for deep learning in MATLAB.
 * [Point Cloud Object Detection](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#lidar-)
 
 ### Robotics
-* [Manipulator Motion Planning](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#robotics-)
+* [Manipulator Motion Planning](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#manipulator-motion-planning-)
 
 ## Image Classification <a name="ImageClassification"/>
 
@@ -340,6 +340,7 @@ Inputs are start configuration, goal configuration and obstacle environment enco
 | Network  | Application | Size (MB)| Location|
 | --- | --- | --- | --- |
 | [Deep-Learning-Based CHOMP (DLCHOMP)](https://www.mathworks.com/help/releases/R2024a/robotics/ref/dlchomp.html)   | Trajectory Prediction | 25 | [Doc](https://www.mathworks.com/help/releases/R2024a/robotics/ref/dlchomp.html)<br />[GitHub](https://github.com/matlab-deep-learning/pretrained-dlchomp) |
+| [mazeMapTrainedMPNET](https://www.mathworks.com/help/nav/ug/get-started-with-motion-planning-networks.html) | Motion Planning | 0.234 | Doc ([Training](https://www.mathworks.com/help/nav/ug/train-deep-learning-based-sampler-for-motion-planning.html), [Accelerating](https://www.mathworks.com/help/nav/ug/accelerate-motion-planning-with-deep-learning-based-sampler.html))
 
 
 
@@ -354,5 +355,5 @@ Alternatively send the request through to:
 Deep Learning Product Manager <br /> 
 jianghaw@mathworks.com
 
-Copyright 2023, The MathWorks, Inc.
+Copyright 2024, The MathWorks, Inc.
 
