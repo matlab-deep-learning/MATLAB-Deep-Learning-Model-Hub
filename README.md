@@ -31,6 +31,7 @@ Discover pretrained models for deep learning in MATLAB.
 
 ### Robotics
 * [Manipulator Motion Planning](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#manipulator-motion-planning-)
+* [Path Planning with Motion Planning Networks](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#path-planning-with-motion-planning-networks-)
 
 ## Image Classification <a name="ImageClassification"/>
 
@@ -340,9 +341,25 @@ Inputs are start configuration, goal configuration and obstacle environment enco
 | Network  | Application | Size (MB)| Location|
 | --- | --- | --- | --- |
 | [Deep-Learning-Based CHOMP (DLCHOMP)](https://www.mathworks.com/help/releases/R2024a/robotics/ref/dlchomp.html)   | Trajectory Prediction | 25 | [Doc](https://www.mathworks.com/help/releases/R2024a/robotics/ref/dlchomp.html)<br />[GitHub](https://github.com/matlab-deep-learning/pretrained-dlchomp) |
-| [mazeMapTrainedMPNET](https://www.mathworks.com/help/nav/ug/get-started-with-motion-planning-networks.html) | Motion Planning | 0.234 | Doc ([Training](https://www.mathworks.com/help/nav/ug/train-deep-learning-based-sampler-for-motion-planning.html), [Accelerating](https://www.mathworks.com/help/nav/ug/accelerate-motion-planning-with-deep-learning-based-sampler.html))
 
 
+
+[Back to top](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#matlab-deep-learning-model-hub)
+
+
+## Path Planning with Motion Planning Networks <a name="PathPlanningMPNet"/>
+
+Motion Planning Networks (MPNet) is a deep-learning-based approach for finding optimal paths between a start point and goal point in motion planning problems. MPNet is a deep neural network that can be trained on multiple environments to learn optimal paths between various states in the environments. The MPNet uses this prior knowledge to,
+- Generate informed samples between two states in an unknown test environment. These samples can be used with sampling-based motion planners such as optimal rapidly-exploring random trees (RRT*) for path planning.
+- Compute collision-free path between two states in an unknown test environment. MPNet based path planner is more efficient than the classical path planners such as the RRT*.
+
+To know more please visit [Get Started with Motion Planning Networks](https://in.mathworks.com/help/nav/ug/get-started-with-motion-planning-networks.html)
+
+![](Images/mpnetarchitecture.png)
+
+| Network                                                                                                     | Application   | Size (MB) | Location                                                                                                |
+| ----------------------------------------------------------------------------------------------------------- | ------------- | --------- | ------------------------------------------------------------------------------------------------------- |
+| [mazeMapTrainedMPNET](https://www.mathworks.com/help/nav/ug/get-started-with-motion-planning-networks.html) | Path Planning | 0.23      | [Doc](https://www.mathworks.com/help/nav/ug/train-deep-learning-based-sampler-for-motion-planning.html) |
 
 [Back to top](https://github.com/matlab-deep-learning/MATLAB-Deep-Learning-Model-Hub#matlab-deep-learning-model-hub)
 
