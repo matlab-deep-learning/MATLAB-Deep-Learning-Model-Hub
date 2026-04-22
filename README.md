@@ -174,7 +174,7 @@ Inputs are images, outputs are translated RGB images. This example workflow show
 
 | Network  | Application |Size (MB) |Location |Example Output |
 | ------------- | ------------- | ------------- |------------- |------------- |
-| [Pix2PixHD(CGAN)](https://www.mathworks.com/help/deeplearning/ug/generate-image-from-segmentation-map-using-deep-learning.html) | Synthetic Image Translation | 648 | [Doc](https://www.mathworks.com/help/deeplearning/ug/generate-image-from-segmentation-map-using-deep-learning.html) |<img src="Images/SynthesizeSegmentation.png" width=150> |
+| [Pix2PixHD(CGAN)](https://www.mathworks.com/help/vision/ug/generate-image-from-segmentation-map-using-deep-learning.html) | Synthetic Image Translation | 648 | [Doc](https://www.mathworks.com/help/deeplearning/ug/generate-image-from-segmentation-map-using-deep-learning.html) |<img src="Images/SynthesizeSegmentation.png" width=150> |
 | [UNIT (GAN)](https://www.mathworks.com/help/images/unsupervised-day-to-dusk-image-translation-using-unit.html) | Day-to-Dusk Dusk-to-Day Image Translation | 72.5 | [Doc](https://www.mathworks.com/help/images/unsupervised-day-to-dusk-image-translation-using-unit.html) |<img src="Images/day2dusk.png" width=150>|
 | [UNIT (GAN)](https://www.mathworks.com/help/images/unsupervised-medical-image-denoising-using-unit.html) | Medical Image Denoising | 72.4 | [Doc](https://www.mathworks.com/help/images/unsupervised-medical-image-denoising-using-unit.html) |<img src="Images/unit_imagedenoising.png" width=150>|
 | [CycleGAN](https://www.mathworks.com/help/images/unsupervised-medical-image-denoising-using-cyclegan.html) | Medical Image Denoising | 75.3 | [Doc](https://www.mathworks.com/help/images/unsupervised-medical-image-denoising-using-cyclegan.html) |<img src="Images/cyclegan_imagedenoising.png" width=150>|
@@ -192,7 +192,7 @@ All inputs are RGB images, outputs are heatmaps and part affinity fields (PAFs) 
 
 | Network  | Backbone Networks | Size (MB)| Location|
 | ------------- | -------------| ------------- |------------- |
-| [OpenPose](https://www.mathworks.com/help/deeplearning/ug/estimate-body-pose-using-deep-learning.html) | vgg19  | 14 | [Doc](https://www.mathworks.com/help/deeplearning/ug/estimate-body-pose-using-deep-learning.html) |
+| [OpenPose](https://www.mathworks.com/help/vision/ug/estimate-body-pose-using-deep-learning.html) | vgg19  | 14 | [Doc](https://www.mathworks.com/help/deeplearning/ug/estimate-body-pose-using-deep-learning.html) |
 | [HR Net](https://www.mathworks.com/help/vision/ref/hrnetobjectkeypointdetector.html) | human-full-body-w32<br />human-full-body-w48  | 106.9<br />237.7 | [Doc](https://www.mathworks.com/help/vision/ref/hrnetobjectkeypointdetector.html) |
 
 
