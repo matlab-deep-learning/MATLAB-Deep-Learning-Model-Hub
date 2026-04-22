@@ -341,7 +341,7 @@ Inputs are start configuration, goal configuration and obstacle environment enco
 
 | Network  | Application | Size (MB)| Location|
 | --- | --- | --- | --- |
-| [Deep-Learning-Based CHOMP (DLCHOMP)](https://www.mathworks.com/help/releases/R2024a/robotics/ref/dlchomp.html)   | Trajectory Prediction | 25 | [Doc](https://www.mathworks.com/help/releases/R2024a/robotics/ref/dlchomp.html)<br />[GitHub](https://github.com/matlab-deep-learning/pretrained-dlchomp) |
+| [Deep-Learning-Based CHOMP (DLCHOMP)](https://www.mathworks.com/help/robotics/ref/dlchomp.html)   | Trajectory Prediction | 25 | [Doc](https://www.mathworks.com/help/robotics/ref/dlchomp.html)<br />[GitHub](https://github.com/matlab-deep-learning/pretrained-dlchomp) |
 
 
 
@@ -354,7 +354,7 @@ Motion Planning Networks (MPNet) is a deep-learning-based approach for finding o
 - Generate informed samples between two states in an unknown test environment. These samples can be used with sampling-based motion planners such as optimal rapidly-exploring random trees (RRT*) for path planning.
 - Compute collision-free path between two states in an unknown test environment. MPNet based path planner is more efficient than the classical path planners such as the RRT*.
 
-To know more please visit [Get Started with Motion Planning Networks](https://in.mathworks.com/help/nav/ug/get-started-with-motion-planning-networks.html)
+To know more please visit [Get Started with Motion Planning Networks](https://www.mathworks.com/help/nav/ug/get-started-with-motion-planning-networks.html)
 
 ![](Images/mpnetarchitecture.png)
 
