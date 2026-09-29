@@ -319,9 +319,9 @@ Inputs are Lidar Point Clouds converted to five-channels, outputs are segmentati
 
 | Network  | Application | Size (MB) | Object Classes | Location | 
 | ------------- | ------------- | ------------- |------------- |------------- |
-| [PointNet](https://www.mathworks.com/help/vision/ug/point-cloud-classification-using-pointnet-deep-learning.html)  | Classification | 5| 14 |[Doc](https://www.mathworks.com/help/vision/ug/point-cloud-classification-using-pointnet-deep-learning.html)|
+| [PointNet]()  | Classification | 5| 14 |[Doc](https://www.mathworks.com/help/pointcloud/ug/point-cloud-classification-using-point-net-plus-deep-learning.html)|
 | <a name="PointCloudSeg"/>[PointNet++](https://www.mathworks.com/help/lidar/ug/aerial-lidar-segmentation-using-pointnet-network.html)  | Segmentation | 3| 8 |[Doc](https://www.mathworks.com/help/lidar/ug/aerial-lidar-segmentation-using-pointnet-network.html)|
-| [PointSeg](https://www.mathworks.com/help/deeplearning/ug/lidar-semantic-segmentation-using-pointseg.html)   | Segmentation | 14| 3 |[Doc](https://www.mathworks.com/help/vision/ug/point-cloud-classification-using-pointnet-deep-learning.html)|
+| [PointSeg](https://www.mathworks.com/help/deeplearning/ug/lidar-semantic-segmentation-using-pointseg.html)   | Segmentation | 14| 3 |[Doc](https://www.mathworks.com/help/pointcloud/ug/point-cloud-classification-using-point-net-plus-deep-learning.html)|
 | [SqueezeSegV2](https://www.mathworks.com/help/deeplearning/ug/lidar-semantic-segmentation-using-squeezesegv2.html)   | Segmentation |5| 12 |[Doc](https://www.mathworks.com/help/deeplearning/ug/lidar-semantic-segmentation-using-squeezesegv2.html) |
 | [SalsaNext](https://github.com/matlab-deep-learning/pretrained-salsanext)   | Segmentation |20.9 | 13 |[GitHub](https://github.com/matlab-deep-learning/pretrained-salsanext)|
 | <a name="PointCloudObj"/>[PointPillars](https://www.mathworks.com/help/lidar/ug/object-detection-using-pointpillars-network.html)   | Object Detection | 8| 3 |[Doc](https://www.mathworks.com/help/lidar/ug/object-detection-using-pointpillars-network.html)|
